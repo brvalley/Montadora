@@ -9,6 +9,8 @@ require 'Motor/Motor20.php';
 require 'Motor/Motor20Turbo.php';
 require 'Diesel/Motor.php';
 require 'IEException.php';
+require 'DesignPattern/Factory.php';
+require 'Sedan.php';
 
 use Ford\Motor\Motor20;
 use Diesel\Motor as MotorDiesel;
